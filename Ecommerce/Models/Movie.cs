@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using Ecommerce.Data.Enums;
+using System.ComponentModel.DataAnnotations;
 
 namespace Ecommerce.Models
 {
@@ -13,7 +14,7 @@ namespace Ecommerce.Models
 
         public DateTime StartDate { get; set; }
         public DateTime EndDate { get; set; }
-        public 
+        public MovieCategory Genre { get; set; }
 
 
 

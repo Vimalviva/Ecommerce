@@ -2,7 +2,7 @@
 
 namespace Ecommerce.Models
 {
-    public class producer : Person
+    public class producer 
     {
         [Key]
         public int Id { get; set; }

@@ -2,7 +2,7 @@
 
 namespace Ecommerce.Models
 {
-    public class Actorcs : Person
+    public class Actor 
     {
         [Key]
         public int Id { get; set; }

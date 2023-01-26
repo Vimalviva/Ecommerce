@@ -1,8 +1,8 @@
-﻿namespace Ecommerce.Controllers.Data
+﻿namespace Ecommerce.Data.Enums
 {
     public enum MovieCategory
     {
-        Action=1,
+        Action = 1,
         Romance,
         Thriller,
         Sitcom,
